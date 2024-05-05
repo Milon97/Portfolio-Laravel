@@ -1,0 +1,109 @@
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .about-me {
+     margin-top: 0; 
+   }
+  .is-sticky .about-me {
+    transform: inherit;
+   }
+   .about-details {
+    padding-top: 50px;
+   }
+   .about-img {
+     top: 85px;
+   }
+    div#sticker {
+    position: inherit !important;
+   }
+
+   section#about {
+    margin-top: 65px;
+   }
+   .logo {
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 3px;
+}
+.main-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+}
+   .main-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .main-menu ul li a {
+    text-transform: capitalize;
+    margin-left: 4px;
+    padding: 2px 10px;
+}
+
+.about-short {
+    text-align: center;
+    margin-top: 115px;
+}
+   .banner-img {
+    text-align: center;
+   }
+   .toggle_btn {
+    text-align: right;
+    margin-top: 5px;
+}
+   .toggle_btn button{
+    background: transparent;
+    border: none;
+    
+    }
+    .toggle_btn i {
+      font-size: 22px;
+      color: #FFB400;
+    }
+    .cust-offcanvas {
+    background: #191B1E;
+    }
+    .close_btn {
+    color: #FFB400;
+    background: #333;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+	.ws__mMenu {
+	    display: block;
+        background: rgba(33, 36, 40, 0.8705882353);
+       box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+       padding: 10px 0;
+
+	}
+  
+    
+	.m-menu {
+	    padding: 0;
+	}
+	.m-menu ul li a {
+		color: #fff;
+		padding: 10px;
+	}
+	.m-menu ul li {
+		border-bottom: 1px solid #444;
+	}
+	.m-menu ul li:last-child {
+		border-bottom: 0;
+	}
+	.banner-btn {
+     display: flex;
+    }
+    .banner-btn a {
+    padding: 10px 35px 10px;
+   }
+  
+    .banner-content {
+    transform: translateY(0);
+    padding-right: 0;
+    position: inherit;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   }
+}
